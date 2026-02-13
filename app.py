@@ -5,7 +5,7 @@ def upload_to_github(data):
     token = st.secrets["GITHUB_TOKEN"]
     g = Github(token)
 
-    repo = g.get_repo("USERNAME_KAMU/test1")
+    repo = g.get_repo("PetrucKlouxie/test1")
     file_path = "data.csv"
 
     try:
